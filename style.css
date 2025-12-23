@@ -1,0 +1,42 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Roboto', sans-serif; background: #f9f9f9; color: #333; }
+
+.container { width: 90%; max-width: 1200px; margin: auto; padding: 40px 0; }
+
+/* Header */
+header { background: #0f172a; color: #fff; padding: 40px 20px; }
+header .header-flex { display: flex; align-items: center; flex-wrap: wrap; justify-content: center; gap: 20px; }
+header .logo { max-width: 120px; height: auto; }
+header .header-text { text-align: center; }
+header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+header .tagline { font-size: 1.2rem; margin-bottom: 20px; }
+header .btn-cta { background: #3b82f6; color: #fff; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: bold; }
+
+/* Sections */
+section { padding: 60px 0; }
+section h2 { text-align: center; font-size: 2rem; margin-bottom: 30px; color: #0f172a; }
+
+/* Products */
+.product-grid { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+.product-card { background: #fff; padding: 20px; border-radius: 10px; text-align: center; width: 250px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.product-card img { max-width: 100%; height: auto; margin-bottom: 10px; }
+.product-card h3 { font-size: 1.2rem; margin-bottom: 5px; }
+.product-card p { font-size: 1rem; margin-bottom: 10px; }
+.product-card .btn-order { background: #10b981; color: #fff; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: bold; }
+
+/* How It Works */
+#how-it-works ol { max-width: 600px; margin: auto; padding-left: 20px; }
+#how-it-works li { margin-bottom: 15px; font-size: 1.1rem; }
+
+/* Contact */
+#contact p { text-align: center; font-size: 1rem; margin-bottom: 10px; }
+#contact a { color: #3b82f6; text-decoration: none; }
+
+/* Footer */
+footer { background: #0f172a; color: #fff; text-align: center; padding: 20px 0; }
+footer a { color: #3b82f6; text-decoration: none; }
+
+/* Responsive */
+@media(max-width:768px){
+    header .header-flex { flex-direction: column; }
+}
